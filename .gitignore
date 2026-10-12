@@ -1,0 +1,23 @@
+# macOS and editor files
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.secrets.*
+
+# Local output and dependency caches
+*.log
+*.tmp
+node_modules/
+dist/
+coverage/
+_site/
+.jekyll-cache/
